@@ -16,7 +16,7 @@ function App({ isLoading = false }) {
           if (response) {
             try {
               const res = await fetch(
-                "http://localhost:5000/api/v1/job/addjob",
+                "https://api.inprep.ai/api/v1/job/addjob",
                 {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },
